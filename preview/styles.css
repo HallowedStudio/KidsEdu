@@ -1,0 +1,120 @@
+body{
+    z-index: -999;
+    width: 11000px;
+    height: 11000px;
+    background: rgb(33, 31, 31);
+    overflow: hidden;
+    padding: 0%;
+    margin: 0%;
+}
+a{
+    text-decoration: none;
+}
+p, h1, h2, h3, h4, h5, h6, li, div, footer, header{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(255, 255, 255);
+    align-self: center;
+}
+img{
+    border-radius: 50%;
+}
+#document{
+    z-index: 70;
+    width: 1000px;
+    height: 11000px;
+    overflow: hidden;
+    margin-left: 400px;
+    align-items: center;
+}
+#document p, #document a{
+    text-decoration: none;
+    font-size: 20px;
+}
+#navBar{
+    overflow: hidden;
+    width: 400px;
+    height: 100vh;
+    z-index: 999;
+    position: fixed;
+    background: rgb(17, 17, 17);
+    display: block;
+    border: 1px rgb(73, 73, 73);
+}
+.navItem{
+    height: 100px;
+    width: 400px;
+    background:rgb(17, 17, 17);
+    display: flex;
+    align-items: center;
+}
+#navTitle{
+    height: 80px;
+    width: 300px;
+    background:rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+#iSeeYou:hover{
+    cursor: pointer;
+}
+#navTitle a{
+    font-size: 70px;
+    color: white;
+}
+#navTitle a:hover{
+    font-size: 70px;
+    color: white;
+    animation: rb 20s infinite;
+}
+nav .navItem a{
+    text-decoration: none;
+    font-size: 60px;
+    align-self: center;
+    color:rgb(81, 0, 255);
+    text-shadow: 5px 5px rgb(0, 0, 0);
+}
+nav div a:hover{
+    animation: rb 20s infinite;
+    animation: grow 1s 1;
+    animation-fill-mode: forwards;
+}
+@keyframes rb{
+    5%{color: rgb(246, 131, 131);}
+    10%{color: rgb(236, 59, 59);}
+    15%{color: rgb(220, 39, 3);}
+    20%{color: rgb(255, 68, 0);}
+    25%{color: rgb(255, 115, 0);}
+    30%{color:rgb(255, 174, 0)}
+    35%{color: rgb(148, 197, 52);}
+    40%{color: rgb(73, 240, 12)}
+    45%{color:rgb(0, 128, 0)}
+    50%{color: rgb(0, 255, 85);}
+    55%{color: rgb(0, 123, 255);}
+    60%{color: rgb(0, 21, 255);}
+    65%{color: rgb(81, 0, 255);}
+    70%{color: rgb(136, 0, 255);}
+    75%{color: rgb(225, 0, 255);}
+    80%{color: rgb(255, 0, 111);}
+    85%{color: rgb(205, 8, 8);}
+    90%{color: rgb(233, 109, 136);}
+    95%{color: rgb(219, 127, 170);}
+    100%{color: rgb(247, 226, 226);}
+}
+@keyframes grow{
+    0%{font-size: 60px;}
+    100%{font-size: 100px;}
+}
+footer{
+    z-index:69;
+    overflow: hidden;
+    margin-left: 400px;
+    width: 1000px;
+    height: 100px;
+    align-items: center;
+}
+footer p, footer a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
