@@ -16,14 +16,14 @@ p, h1, h2, h3, h4, h5, h6, li, div, footer, header{
     align-self: center;
 }
 img{
-    width: 700px;
+    width: 1000px;
     height: 600px;
 }
 #document{
     z-index: 70;
     width: 1000px;
-    height: 11000px;
-    overflow: hidden;
+    height: 100vh;
+    overflow: scroll;
     margin-left: 400px;
     align-items: center;
 }
