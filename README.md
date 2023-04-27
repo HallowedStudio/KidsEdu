@@ -7,3 +7,6 @@ Our Real CEO is a man named Dewollah and is definitly not underpaying his employ
 
 # Our Purpose
 We are definitly not trying to unblock stuff and are 100% trying to aid the learning of children.
+
+# Our Goal
+We have made this tool to help learning and not block stuff so all SYS and IT admins please go away.
