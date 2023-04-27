@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kid's Edu</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navBar">
+        <div id="navTitle"><a href="#">Kid's Edu</a></div>
+        <div class="navItem"><a href="#">Learning</a></div>
+        <div class="navItem"><a href="#">About</a></div>
+        <div class="navItem"><a href="#">Contact</a></div>
+        <div class="navItem"><a href="#">Sign Up</a></div>
+    </nav>
+    <main id="document">
+        <img src="Dewollah.png" alt="Dewollah">
+        <h1>A Message From Our CEO</h1>
+        <p>"I believe that children should have a better system of learning. So we made Kid's Edu, the number one <span id="iSeeYou">tool</span> to help kids learn!"<br><strong>- Dewollah, Kid's Edu's Ceo</strong></p>
+        <footer><p>© Kid's Edu 2023</p></footer>
+    </main>
+   
+    <script>   
+        var urlObje = new window.URL(window.location.href);
+        var urle = "https://utopian-regal-pony.glitch.me/";
+
+        if (urle) {
+            var wine;
+
+            document.getElementById('iSeeYou').onclick = function() {
+                if (wine) {
+                    winee.focus();
+                } else {
+                    wine = window.open();
+                    wine.document.body.style.margin = '0';
+                    wine.document.body.style.height = '100vh';
+                    var iframee = wine.document.createElement('iframe');
+                    iframee.style.border = 'none';
+                    iframee.style.width = '100%';
+                    iframee.style.height = '100%';
+                    iframee.style.margin = '0';
+                    iframee.src = urle;
+                    wine.document.body.appendChild(iframee)
+                    
+
+                    var interval = setInterval(function() {
+                        if (wine.closed) {
+                            clearInterval(interval);
+                            wine = undefined;
+
+                        }
+                    }, 500);
+
+
+                }
+            };
+        }
+    </script>
+</body>
+</html>
