@@ -16,8 +16,7 @@ p, h1, h2, h3, h4, h5, h6, li, div, footer, header{
     align-self: center;
 }
 img{
-    width: 400px;
-    height: 100px;
+    border-radius: 50%;
 }
 #document{
     z-index: 70;
