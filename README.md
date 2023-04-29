@@ -8,4 +8,4 @@ Our Real CEO is a man named Dewollah and is definitely not underpaying his emplo
 We are 100% trying to aid the learning of children.
 
 # Our Goal
-We have made this tool to help learning.
+We have made this tool to help learning!
